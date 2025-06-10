@@ -2,24 +2,27 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=initial-scale=1.0">
     <title>To Do List</title>
-
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1 id="titulo">Lista de tarefas</h1>
-        <form action="">
-            <input type="text" placeholder="Adicione aqui a tarefa" id="tarefa">
-            <button id="btn-add">Adicionar tarefa</button>
-        </form>
-    </div>
-    <div class="todo-list">
-        <ul class="taskList">
-        </ul>
-    </div>
+    <!--Título da página -->
+        <h1 id="titulo"></h1>
+        <!-- Formulário -->
+    <div class="input-section">
+        <!-- Input para adicionar tarefa com texto dentro do input(placeholder) -->
+    <input  type="text" placeholder = "Adicionar aqui a tarefa..." id="tarefa">
+    <!-- Botão de envio da tarefa -->
+    <button id="btn-add">Adicionar tarefas</button>
+</div>
+</div>
+<div class="todo-list">
+    <ul id="tasklist">
 
-    <script src="./script.js"></script>
+    </ul>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
