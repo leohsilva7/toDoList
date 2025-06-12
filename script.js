@@ -26,6 +26,7 @@ function criaTarefa(){
 
     if (tarefa.value == "") {
         alert("digite o nome da tarefa");
+         tarefa.focus();
     }
 
     else {
