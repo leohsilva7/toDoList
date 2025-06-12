@@ -61,6 +61,7 @@ function criaTarefa(){
         })
 
         tarefa.value = "";
+        tarefa.focus();
    
     }
 }
