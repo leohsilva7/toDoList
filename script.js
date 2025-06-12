@@ -46,4 +46,6 @@ function criaTarefa(){
     concluirButton.addEventListener("click",function(){
         listItem.classList.toggle('completed');
     })
+
+    tarefa.value = "";
 }
